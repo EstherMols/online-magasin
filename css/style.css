@@ -131,17 +131,38 @@ header ul .submenu li a{
 }
 
 /*Styling af container med tekst på forside*/
-.forsideTekst{
+section .forsideTekst{
     background-color: white;
     height: 50px;
 }
 
 /*Styling af teksten i container på forside*/
 .forsideTekst p{
-    color: midnightblue;
+    color: plum;
     align-items: center;
     padding: 30vh;  
+    margin-top: 10px;
+    font-size: larger;
 }
+
+/*Styling af billeder i footer på forside*/
+.footerForside {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(219, 239, 246); 
+    padding: 20px; 
+}
+
+/*Mere styling af footer på forside bl.a. at gøre billederne funde*/
+.footerForside img{
+    border-radius: 50%; 
+    margin: 0 10px; 
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; 
+}
+
 
 /*Styling af mellemside til KAffe*/
 /*Først styler overskrift og tekst*/
