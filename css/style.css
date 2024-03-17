@@ -1,0 +1,64 @@
+/*Reset af stilark*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*Typografi og tekstformatering angives for body*/
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    color: blue;
+}
+
+/*Layout, styling og præsentation af navbar*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    border-bottom: 1 px solid yellow;
+}
+
+/*Styling af listelement li inde i ubesmt ul i header*/
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+}
+
+/*Målrettet styling af det sidste listelement i ul i header*/
+header ul li:last-child{
+    margin-right: 0;
+}
+
+/*Styling af ankerlinks i navbar*/
+header ul li a{
+    text-decoration: none;
+    color: plum;
+    padding: 22px 0;
+    display: inline-block;
+    transition: all ease 0.3s;
+    font-size: 18px;
+}
+
+header ul li a:hover{
+    color: lightskyblue;
+    
+}
+
+/*Styling af logo*/
+.logo a{
+    font-size: 24px;
+    text-decoration: none;
+    color: midnightblue
+}
+
+/*Tilføjelse af skyggeeffekt ved klik på logo*/
+.logo a:active {
+    background-color: white; /* Skift baggrundsfarve */
+    box-shadow: 0 0 5px plum; /* Tilføj en skyggeeffekt */
+}
