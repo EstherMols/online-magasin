@@ -95,3 +95,26 @@ header ul .submenu li a{
     width: 100%;
 }
 
+/*Styling af forside billede*/
+.forsideBillede {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;  
+    bottom: 0;
+}
+
+.forsideBillede img {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    max-width: 100%; 
+    max-height: 100%;
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+
