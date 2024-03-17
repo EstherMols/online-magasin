@@ -117,4 +117,10 @@ header ul .submenu li a{
     height: auto;
 }
 
-
+#forside{
+    background-image: url(/img/forside.svg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
