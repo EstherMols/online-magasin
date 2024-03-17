@@ -46,8 +46,8 @@ header ul li a{
 }
 
 header ul li a:hover{
-    color: lightskyblue;
-    
+    color: lightpink;
+    text-decoration: underline;
 }
 
 /*Styling af logo*/
@@ -62,3 +62,36 @@ header ul li a:hover{
     background-color: white; /* Skift baggrundsfarve */
     box-shadow: 0 0 5px plum; /* Tilføj en skyggeeffekt */
 }
+
+/*Styling af submenu*/
+header ul .submenu{
+    position: absolute;
+    width: 200px;
+    background-color: midnightblue;
+    box-shadow: 0 20px 45px midnightblue;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.5s;
+}
+
+/*Styling af submenu når der integreres med hovedmenu*/
+header ul li:hover .submenu{
+    z-index: 99;
+    opacity: 1;
+    margin-top: 0;
+}
+
+/* Styling af submenu så hver listelement strækker sig over hele bredden af submenu*/
+header ul .submenu li{
+    margin: 0;
+    width: 100%;
+}
+
+/*Styling af ankerinks så der er passende plads omkring, korrekt linje og udfyldning af bredden i container*/
+header ul .submenu li a{
+    padding: 15px 20px;
+    display: inline-block;
+    width: 100%;
+}
+
