@@ -172,18 +172,44 @@ section .forsideTekst{
     line-height: 1.5;
 }
 
+/*Farve til overskriften på mellemside*/
 .mellemSideOverskrift h1{
     color: plum;
 }
 
+/*Farve og linjeafstand til brødteksten på min mellemside*/
 .mellemSideOverskrift p{
     color: darkred;
+    margin: 5px; 
 }
 
+/*Styling af brødkrummesti*/
 .brødkrummestiKAffeMellemside{
     margin: 20px;
     font-size: 14px;
     padding: 2.5px;
     color: lightblue;
+}
+
+/*Styling af klikbare billeder fungerende som oversigt*/
+.bokseMellemside {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boks {
+    width: calc(33.33% - 20px); 
+}
+
+.boks img {
+    width: 100%; 
+    padding: 10px;
+}
+
+.boks:hover {
+    opacity: 0.9; 
+    transform: scale(0.9);
 }
 
