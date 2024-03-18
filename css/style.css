@@ -349,7 +349,7 @@ section .forsideTekst{
 }
 
 .kaffeArtikelBrødtekst{
-    background-color: rgb(250, 240, 230);
+    background-color: rgb(250, 240, 230, 0.70);
     margin: 50px;
     padding: 5px;   
 }
@@ -358,3 +358,22 @@ section .forsideTekst{
 .kaffeArtikelBrødtekst p{
     width: 100%;
 }
+
+/*Farve til overskriften på gåture artikel*/
+.gaatureArtikelOverskrift h1{
+    color: plum;
+    font-size: xx-large;
+}
+
+/*Farve og linjeafstand til brødteksten på min gåture artikel*/
+.gaatureArtikelOverskrift p{
+    color: darkred;
+    margin: 5px; 
+}
+
+.gaatureArtikelOverskrift h1,p{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
