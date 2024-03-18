@@ -189,12 +189,24 @@ section .forsideTekst{
     margin: 20px;
     font-size: 14px;
     padding: 2.5px;
-    color: lightblue;
+    color: lightsteelblue;
+}
+
+/*Styling af "sortere efter"*/
+.sortereEfter{
+    margin: 20px;
+    font-size: 14px;
+    padding: 2.5px;
+    color: lightsteelblue;
+    text-align: right;
+    margin-bottom: 0px;
+    padding: 2.5px;
+    
 }
 
 /*Styling af klikbare billeder fungerende som oversigt*/
 .bokseMellemside {
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -207,16 +219,24 @@ section .forsideTekst{
     transition: opacity 0.3s; /* Tilføj en overgangseffekt */
 }
 
-
+/*Padding og Margin mellem billwedebokse på mellemside*/
 .boks img {
     width: 100%; 
     padding: 20px;
     margin: 20px;
 }
 
+/*Styling af effekt ved berøing af billede med mus*/
 .boks:hover {
     opacity: 0.9; 
     transform: scale(0.9);
     
 }
 
+/*Styling af brødkrummesti på GO Kaffe artikel*/
+.brødkrummestiKAffeArtikel{
+    margin: 20px;
+    font-size: 14px;
+    padding: 2.5px;
+    color: lightblue;
+}
