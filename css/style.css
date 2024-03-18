@@ -316,6 +316,7 @@ section .forsideTekst{
   color: rgb(250, 240, 230);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/*Kommetar til faktaboks: jeg prøvede at lave nye linjer med skriften, så "PRIS" ville stå på linje selv, og "HVOR" ville stå på linje selv nedenunder osv. Dette lykkedes detsværre ikke for mig*/ 
 
 /*Farve til overskriften på som skal være centeret i midten*/
 .kaffeArtikelOverskrift h1{
@@ -357,6 +358,8 @@ section .forsideTekst{
 /*Jeg tilføjer lige magner til brødteksten*/
 .kaffeArtikelBrødtekst p{
     width: 100%;
+    color: midnightblue;
+    text-align: start;
 }
 
 /*Farve til overskriften på gåture artikel*/
@@ -378,5 +381,47 @@ section .forsideTekst{
 }
 
 /*Styling af Gåture Artiklel*/
+
+/*Styling af første artikel (Den udendelig Bro) i Gåture-artiklen*/
+.gaatureArtikel1{
+    background-color: midnightblue;
+    color: white;
+    margin-top: 100px;
+    display: grid; /* Brug CSS-grid for at oprette et grid-layout */
+    grid-template-columns: auto 1fr; /* Definer to kolonner: en til billedet og en til teksten */
+    gap: 20px; /* Tilføj lidt afstand mellem kolonnerne */
+    align-items: center; /* Centrer indholdet lodret */
+}
+
+.gaatureArtikel1Indhold {
+    position: relative; /* Gør indholdspositionen relativ */
+    display: flex; /* Brug flexbox for at justere billedet og teksten */
+}
+
+.gaatureArtikel1 h3, p{
+    color: white;
+    max-width: 1005;
+}
+
+/*Styling af billede*/
+.gaatureArtikel1 img {
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    margin-right: 20px; /* Tilføj lidt afstand til højre for billedet */
+    margin: 100px 60px 100px 60px;
+}
+
+.gaatureArtikel1Tekst {
+    overflow: hidden;
+}
+
+.gaatureArtikel1Tekst h2, h3, p{
+    margin: 0;
+}
+
+
+
 
 
