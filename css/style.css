@@ -200,17 +200,23 @@ section .forsideTekst{
     justify-content: center;
 }
 
+/*Styling af boks med billeder. Bl.a. gennemsigtighed*/
 .boks {
     width: calc(33.33% - 20px); 
+    opacity: 0.5; /* Start med lav gennemsigtighed */
+    transition: opacity 0.3s; /* Tilføj en overgangseffekt */
 }
+
 
 .boks img {
     width: 100%; 
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .boks:hover {
     opacity: 0.9; 
     transform: scale(0.9);
+    
 }
 
