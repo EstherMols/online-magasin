@@ -450,8 +450,7 @@ section .forsideTekst{
 
 /*Styling af Gåture Artiklel*/
 
-/*Styling af første artikel (Den udendelig Bro) i Gåture-artiklen*/
-/*Styling af billede og tekst vha grid. CSS-grid layout gør at billedet og teksten stå ved siden af hinanden i separate kolonner.*/
+/*Styling af artikel 2 til Gåture. Styling fra artikel 2 genburges. For at kunne lave teksten en anden farve tilføkes class til h- og p-tags*/
 .gaatureArtikel2{
     background-color: white;
     color: midnightblue;
