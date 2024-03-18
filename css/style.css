@@ -244,10 +244,10 @@ section .forsideTekst{
 }
 
 .kaffeartikelBillederTop{
-   display: inline-flex;
+    display: inline-flex;
     justify-content: flex-start; 
     align-items: flex-start;
-    margin-top: 20px;   
+    margin-top: 2px;   
 }
 
 .kaffeartikelBillederTop picture{
@@ -296,9 +296,18 @@ section .forsideTekst{
 }
 
 /*Farve og linjeafstand til brødteksten på min mellemside*/
-.kaffeArtikelOverskrift p{
-    color: darkred;
-    margin: 5px; 
+.kaffeArtikelOverskrift h2, h3, p{
+    color: black;
+    margin: 1px; 
     text-align: left;
-    margin-left: 25px; 
+    margin-left: 60px; 
+    margin-right: 60px;
+}
+
+.kaffeArtikelOverskrift h3{
+    color: lightsteelblue;  
+}
+
+.kaffeArtikelOverskrift h2{
+    margin-top: 30px;
 }
