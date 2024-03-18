@@ -176,6 +176,7 @@ section .forsideTekst{
 /*Farve til overskriften på mellemside*/
 .mellemSideOverskrift h1{
     color: plum;
+    font-size: xx-large;
 }
 
 /*Farve og linjeafstand til brødteksten på min mellemside*/
@@ -233,10 +234,71 @@ section .forsideTekst{
     
 }
 
+/*Styling af artikel tikl GO Kaffe*/
 /*Styling af brødkrummesti på GO Kaffe artikel*/
 .brødkrummestiKAffeArtikel{
     margin: 20px;
     font-size: 14px;
     padding: 2.5px;
-    color: lightblue;
+    color: lightsteelblue;
+}
+
+.kaffeartikelBillederTop{
+   display: inline-flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    margin-top: 20px;   
+}
+
+.kaffeartikelBillederTop picture{
+    flex: 1; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.kaffeartikelBillederTop img{
+    width: 24.82%; 
+    height: auto; 
+    display:inline-flex;  
+}
+
+/*Styling af faktaboks*/
+.faktaboksKaffeArtikel {
+    position: absolute;
+    top: 300px; /* Juster vertikal position */
+    right: 60px; /* Juster horisontal position */
+    background-color: RGB( 25, 25, 112, 0.85); /* Gennemsigtig sort baggrund */
+    color: white; /* Tekstfarve */
+    border-radius: 50%; /* Gør boksen rund */
+    padding: 20px; /* Indvendig polstring */
+    width: 300px; /* Boksens bredde */
+    height: 300px; /* Boksens højde */
+    display: flex; /* Gør containeren til en flex-container */
+    justify-content: center; /* Centrer indhold vandret */
+    align-items: center; /* Centrer indhold vertikalt */
+    text-align: center; /* Centrer tekst */
+}
+.faktaboksKaffeArtikel p {
+  color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Farve til overskriften på mellemside*/
+.kaffeArtikelOverskrift h1{
+    color: plum;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+/*Farve og linjeafstand til brødteksten på min mellemside*/
+.kaffeArtikelOverskrift p{
+    color: darkred;
+    margin: 5px; 
+    text-align: left;
+    margin-left: 25px; 
 }
