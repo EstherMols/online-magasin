@@ -383,23 +383,24 @@ section .forsideTekst{
 /*Styling af Gåture Artiklel*/
 
 /*Styling af første artikel (Den udendelig Bro) i Gåture-artiklen*/
+/*Styling af billede og tekst vha grid. CSS-grid layout gør at billedet og teksten stå ved siden af hinanden i separate kolonner.*/
 .gaatureArtikel1{
     background-color: midnightblue;
-    color: white;
+    color: rgb(250, 240, 230);
     margin-top: 100px;
-    display: grid; /* Brug CSS-grid for at oprette et grid-layout */
-    grid-template-columns: auto 1fr; /* Definer to kolonner: en til billedet og en til teksten */
-    gap: 20px; /* Tilføj lidt afstand mellem kolonnerne */
-    align-items: center; /* Centrer indholdet lodret */
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    gap: 20px; 
+    align-items: center; 
 }
 
 .gaatureArtikel1Indhold {
-    position: relative; /* Gør indholdspositionen relativ */
-    display: flex; /* Brug flexbox for at justere billedet og teksten */
+    position: relative; 
+    display: flex; 
 }
 
 .gaatureArtikel1 h3, p{
-    color: white;
+    color: rgb(250, 240, 230);
     max-width: 1005;
 }
 
@@ -409,18 +410,33 @@ section .forsideTekst{
     width: 700px;
     height: 700px;
     object-fit: cover;
-    margin-right: 20px; /* Tilføj lidt afstand til højre for billedet */
+    margin-right: 20px; 
     margin: 100px 60px 100px 60px;
 }
 
 .gaatureArtikel1Tekst {
     overflow: hidden;
+    margin: 50px 60px 300px 60px;
 }
 
+/*Linjeafstand mellem tekstdelene*/
 .gaatureArtikel1Tekst h2, h3, p{
-    margin: 0;
+    margin: 5px;
 }
 
+/*Styling af overskrift*/
+.gaatureArtikel1Tekst h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+/*Styling af brødtekst.*/
+.gaatureArtikel1Tekst h3, p{
+    text-align: start;
+    max-width: 100%;
+    
+}
 
 
 
