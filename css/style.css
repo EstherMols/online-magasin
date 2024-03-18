@@ -144,6 +144,7 @@ section .forsideTekst{
     padding: 30vh;  
     margin-top: 10px;
     font-size: larger;
+    text-align: center;
 }
 
 /*Styling af billeder i footer på forside*/
@@ -183,6 +184,7 @@ section .forsideTekst{
 .mellemSideOverskrift p{
     color: darkred;
     margin: 5px; 
+    text-align: center;
 }
 
 /*Styling af brødkrummesti*/
@@ -191,6 +193,21 @@ section .forsideTekst{
     font-size: 14px;
     padding: 2.5px;
     color: lightsteelblue;
+}
+/*Styling af links brødkrummesti*/
+.brødkrummestiKAffeMellemside a{
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+/*Understreger links ved hover på brødkrummesti*/
+.brødkrummestiKAffeMellemside a:hover{
+    text-decoration: underline;
+}
+
+/*Farve på aktuel side på brødkrummesti*/
+.brødkrummestiKAffeMellemside span{
+    color: midnightblue;
 }
 
 /*Styling af "sortere efter"*/
@@ -242,6 +259,21 @@ section .forsideTekst{
     padding: 2.5px;
     color: lightsteelblue;
 }
+/*Styling af links brødkrummesti*/
+.brødkrummestiKAffeArtikel a{
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+/*Understreger links ved hover på brødkrummesti*/
+.brødkrummestiKAffeArtikel a:hover{
+    text-decoration: underline;
+}
+
+/*Farve på aktuel side på brødkrummesti*/
+.brødkrummestiKAffeArtikel span{
+    color: midnightblue;
+}
 
 .kaffeartikelBillederTop{
     display: inline-flex;
@@ -281,11 +313,11 @@ section .forsideTekst{
     text-align: center; /* Centrer tekst */
 }
 .faktaboksKaffeArtikel p {
-  color: beige;
+  color: rgb(250, 240, 230);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*Farve til overskriften på mellemside*/
+/*Farve til overskriften på som skal være centeret i midten*/
 .kaffeArtikelOverskrift h1{
     color: plum;
     text-align: center;
@@ -295,19 +327,34 @@ section .forsideTekst{
     font-size: xx-large;
 }
 
-/*Farve og linjeafstand til brødteksten på min mellemside*/
+/*Farve og linjeafstand til min h2, h3 og brødtekst */
 .kaffeArtikelOverskrift h2, h3, p{
-    color: black;
+    color: midnightblue;
     margin: 1px; 
     text-align: left;
-    margin-left: 60px; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+/*H3 sættes til anden farve*/
+.kaffeArtikelOverskrift h3{
+    color: lightsteelblue;  
+    margin-left: 60px;
     margin-right: 60px;
 }
 
-.kaffeArtikelOverskrift h3{
-    color: lightsteelblue;  
-}
-
+/*For at lave afstand mellem h2 overskriften og h3 tilføjes margin-top til h2*/
 .kaffeArtikelOverskrift h2{
     margin-top: 30px;
+}
+
+.kaffeArtikelBrødtekst{
+    background-color: rgb(250, 240, 230);
+    margin: 50px;
+    padding: 5px;   
+}
+
+/*Jeg tilføjer lige magner til brødteksten*/
+.kaffeArtikelBrødtekst p{
+    width: 100%;
 }
