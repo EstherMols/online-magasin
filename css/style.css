@@ -347,12 +347,15 @@ section .forsideTekst{
 /*For at lave afstand mellem h2 overskriften og h3 tilføjes margin-top til h2*/
 .kaffeArtikelOverskrift h2{
     margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 3px;
 }
 
 .kaffeArtikelBrødtekst{
     background-color: rgb(250, 240, 230, 0.70);
-    margin: 50px;
-    padding: 5px;   
+    margin: 60px;
+    padding: 25px;   
+    max-height: 100%;
 }
 
 /*Jeg tilføjer lige magner til brødteksten*/
@@ -416,11 +419,11 @@ section .forsideTekst{
 
 .gaatureArtikel1Tekst {
     overflow: hidden;
-    margin: 50px 60px 300px 60px;
+    margin: 100px 60px 100px 60px;
 }
 
 /*Linjeafstand mellem tekstdelene*/
-.gaatureArtikel1Tekst h2, h3, p{
+.gaatureArtikel1Tekst h2, h3, h4, p{
     margin: 5px;
 }
 
@@ -434,9 +437,82 @@ section .forsideTekst{
 /*Styling af brødtekst.*/
 .gaatureArtikel1Tekst h3, p{
     text-align: start;
-    max-width: 100%;
-    
+    max-width: 100%; 
 }
+
+.gaatureArtikel1Tekst h4{
+    color: lightsteelblue;
+}
+
+.gaatureArtikel1Tekst h3{
+    margin-top: 30px;
+}
+
+/*Styling af Gåture Artiklel*/
+
+/*Styling af første artikel (Den udendelig Bro) i Gåture-artiklen*/
+/*Styling af billede og tekst vha grid. CSS-grid layout gør at billedet og teksten stå ved siden af hinanden i separate kolonner.*/
+.gaatureArtikel2{
+    background-color: white;
+    color: midnightblue;
+    margin-top: 100px;
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+.gaatureArtikel2Indhold {
+    position: relative; 
+    display: flex; 
+}
+
+/*Styling af billede*/
+.gaatureArtikel2 img {
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    margin-right: 20px; 
+    margin: 100px 60px 100px 60px;
+}
+
+.gaatureArtikel2Tekst {
+    overflow: hidden;
+    margin: 100px 60px 100px 60px;
+}
+
+/*Linjeafstand mellem tekstdelene*/
+.gaatureArtikel2Tekst h2, h3, h4, p{
+    margin: 5px;
+}
+
+/*Styling af overskrift*/
+.gaatureArtikel2Tekst h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+/*Styling af brødtekst.*/
+.gaatureArtikel2Tekst h3, p{
+    text-align: start;
+    max-width: 100%; 
+}
+
+.gaatureArtikel2Tekst h4{
+    color: lightsteelblue;
+}
+
+.gaatureArtikel2Tekst h3{
+    margin-top: 30px;
+}
+
+.blaa-gaaturArtikel{
+    color: midnightblue;
+}
+
+
 
 
 
