@@ -254,7 +254,7 @@ section .forsideTekst{
 /*Styling af artikel tikl GO Kaffe*/
 /*Styling af brødkrummesti på GO Kaffe artikel*/
 
-.kartikeltype1BillederTop{
+.artikeltype1BillederTop{
     display: inline-flex;
     justify-content: flex-start; 
     align-items: flex-start;
