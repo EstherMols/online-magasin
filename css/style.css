@@ -345,18 +345,6 @@ section .forsideTekst{
     text-align: start;
 }
 
-/*Farve til overskriften på gåture artikel*/
-.gaatureArtikelOverskrift h1{
-    color: plum;
-    font-size: xx-large;
-}
-
-/*Farve og linjeafstand til brødteksten på min gåture artikel*/
-.gaatureArtikelOverskrift p{
-    color: darkred;
-    margin: 5px; 
-}
-
 .gaatureArtikelOverskrift h1,p{
     text-align: center;
     margin-bottom: 20px;
@@ -367,7 +355,7 @@ section .forsideTekst{
 
 /*Styling af første artikel (Den udendelig Bro) i Gåture-artiklen*/
 /*Styling af billede og tekst vha grid. CSS-grid layout gør at billedet og teksten stå ved siden af hinanden i separate kolonner.*/
-.gaatureArtikel1{
+.type2Artikel1{
     background-color: midnightblue;
     color: rgb(250, 240, 230);
     margin-top: 100px;
@@ -377,18 +365,18 @@ section .forsideTekst{
     align-items: center; 
 }
 
-.gaatureArtikel1Indhold {
+.type2Artikel1Indhold {
     position: relative; 
     display: flex; 
 }
 
-.gaatureArtikel1 h3, p{
+.type2Artikel1 h3, p{
     color: rgb(250, 240, 230);
     max-width: 1005;
 }
 
 /*Styling af billede*/
-.gaatureArtikel1 img {
+.type2Artikel1 img {
     border-radius: 50%;
     width: 700px;
     height: 700px;
@@ -397,41 +385,40 @@ section .forsideTekst{
     margin: 100px 60px 100px 60px;
 }
 
-.gaatureArtikel1Tekst {
+.type2Artikel1Tekst {
     overflow: hidden;
     margin: 100px 60px 100px 60px;
 }
 
 /*Linjeafstand mellem tekstdelene*/
-.gaatureArtikel1Tekst h2, h3, h4, p{
+.type2Artikel1Tekst h2, h3, h4, p{
     margin: 5px;
 }
 
 /*Styling af overskrift*/
-.gaatureArtikel1Tekst h2{
+.type2Artikel1Tekst h2{
     text-align: center;
     margin-bottom: 50px;
     font-size: 30px;
 }
 
 /*Styling af brødtekst.*/
-.gaatureArtikel1Tekst h3, p{
+.type2Artikel1Tekst h3, p{
     text-align: start;
     max-width: 100%; 
 }
 
-.gaatureArtikel1Tekst h4{
+.type2Artikel1Tekst h4{
     color: lightsteelblue;
 }
 
-.gaatureArtikel1Tekst h3{
+.type2Artikel1Tekst h3{
     margin-top: 30px;
 }
 
-/*Styling af Gåture Artiklel*/
 
 /*Styling af artikel 2 til Gåture. Styling fra artikel 2 genburges. For at kunne lave teksten en anden farve tilføkes class til h- og p-tags*/
-.gaatureArtikel2{
+.type2Artikel2{
     background-color: white;
     color: midnightblue;
     margin-top: 100px;
@@ -441,13 +428,13 @@ section .forsideTekst{
     align-items: center; 
 }
 
-.gaatureArtikel2Indhold {
+.type2Artikel2Indhold {
     position: relative; 
     display: flex; 
 }
 
 /*Styling af billede*/
-.gaatureArtikel2 img {
+.type2Artikel2 img {
     border-radius: 50%;
     width: 700px;
     height: 700px;
@@ -456,34 +443,34 @@ section .forsideTekst{
     margin: 100px 60px 100px 60px;
 }
 
-.gaatureArtikel2Tekst {
+.type2Artikel2Tekst {
     overflow: hidden;
     margin: 100px 60px 100px 60px;
 }
 
 /*Linjeafstand mellem tekstdelene*/
-.gaatureArtikel2Tekst h2, h3, h4, p{
+.type2Artikel2Tekst h2, h3, h4, p{
     margin: 5px;
 }
 
 /*Styling af overskrift*/
-.gaatureArtikel2Tekst h2{
+.type2Artikel2Tekst h2{
     text-align: center;
     margin-bottom: 50px;
     font-size: 30px;
 }
 
 /*Styling af brødtekst.*/
-.gaatureArtikel2Tekst h3, p{
+.type2Artikel2Tekst h3, p{
     text-align: start;
     max-width: 100%; 
 }
 
-.gaatureArtikel2Tekst h4{
+.type2Artikel2Tekst h4{
     color: lightsteelblue;
 }
 
-.gaatureArtikel2Tekst h3{
+.type2Artikel2Tekst h3{
     margin-top: 30px;
 }
 
