@@ -462,7 +462,7 @@ section .forsideTekst{
     color: midnightblue;
 }
 
-/* Styling af faktaboks. Bl.a. har jeg justeret top og right så faktaboksen har fået den rette position */
+/* Styling af faktaboks. Bl.a. har jeg justeret top og right så faktaboksen har fået den rette position. Der er af andre ting også tilføjet baggrundsfarve*/
 .faktaboks1-Gaature {
     position: absolute;
     top: 1000px; 
