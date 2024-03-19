@@ -511,6 +511,18 @@ section .forsideTekst{
     color: midnightblue;
 }
 
+.faktaboks1-Gaature {
+    position: absolute;
+    top: 975px; /* Juster denne værdi efter dine præferencer */
+    right: 900px; /* Juster denne værdi efter dine præferencer */
+    background-color: rgb(173,216,230, 0.80); /* Baggrundsfarve med en gennemsigtighed for at skabe en let gennemsigtig effekt */
+    padding: 10px; /* Tilføj polstring for at give lidt plads omkring teksten */
+    border-radius: 0px; /* Afrundede kanter for at give en firkantet effekt */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Skyggeeffekt for at adskille boksen fra baggrunden */
+    width: 300px;
+    height: 200px;
+}
+
 
 
 
