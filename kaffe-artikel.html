@@ -11,7 +11,6 @@
     </head>
 <!-- Her indsætter jeg navigationsbaren fra forsiden, så den følger med på alle sider -->
 <body>
- 
      <header>
         <div class="logo">
             <!-- Logo linkes til forsiden, som er denne sidde -->
@@ -62,8 +61,9 @@
 
 <!-- Her tilføjer jeg en Horisontal linje mellem navbar og containerne med tekst -->
 <hr>
-
+<!-- Det primære indhold på siden tilføjes -->
 <main>
+     <!-- Tilføjelse af brødkrummestik med links og span -->
     <div class="broedkrummesti"><p> <a href="/index.html">FORSIDE</a> / MAD&DRIKKE / <a href="/kaffe-mellemside.html">KAFFE</a> / <span>GO KAFFE</span></p></div>
     <!-- Billeder til artikel indsættes. Skal placeres  øverst på side -->
     <div class="artikeltype1BillederTop">
@@ -82,7 +82,7 @@
             OMRÅDE: Frederiksbjerg
         </p>
     </div>
-    <!-- Brødtekst til artiklen laves her. Her benytter jeg sectiom og article som semantiske tags -->
+    <!-- Brødtekst til artiklen laves her i <section>-elementet. <article>-elementet benyttes til brødteksten-->
     <section class="artikelType1Overskrift">
         <h1> Go Kaffe</h1>
         <h3>HYGGE: ♡♡♡</h3>
@@ -98,8 +98,9 @@
     </section>
 </main>
 
-<!-- Der benyttes den samme class som fra forside, da det er samme styling, men blot forskellige billeder. Da det er nederst på forsiden bruges det semantiske tag "footer". -->
+<!-- Tilføjelse af horisontal linje for at adskille main og footer -->
 <hr>
+<!-- Her bruger jeg det semantiske tag "footer" til at tilføje tre billeder nederst på siden-->
 <footer class="footer">
     <img src="/img/artikel-kaffe/IMG_2670.webp" alt="Billede af billig gårdhygge">
     <img src="img/artikel-kaffe/IMG_4230.webp" alt="Billede fra Carter Store">
