@@ -211,7 +211,7 @@ section .forsideTekst{
     transition: opacity 0.3s; 
 }
 
-/*Padding og Margin mellem billwedebokse på mellemside*/
+/*Padding og Margin mellem billedebokse på mellemside*/
 .boks img {
     width: 100%; 
     padding: 20px;
